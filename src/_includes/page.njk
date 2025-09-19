@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        {% include "partials/head.njk" %}
+    </head>
+    <body>
+        {% include "partials/rainbow.njk" %}
+        <header>
+            <p>{{site.description}}</p>
+            <nav>
+                <ol>
+                    {% for item in menuHeader %}
+                        <li class="{% if page.url == item.url %}active{% endif %}">
+                            <a href="{{item.url}}">{{item.shortTitle}}</a>
+                        </li>
+                    {% endfor %}
+                </ol>
+            </nav>
+        </header>
+        <article>
+            <h1>{{title}}</h1>
+            {{ content|safe }}
+        </article>
+        <footer class="footer wide-container">
+            <nav>
+                <ol>
+                    {% for item in menuFooter %}
+                        <li class="{% if page.url == item.url %}active{% endif %}">
+                            <a href="{{item.url}}">{{item.shortTitle}}</a>
+                        </li>
+                    {% endfor %}
+                </ol>
+            </nav>
+
+            <p class="copyright">
+                Copyright &copy; 2025 <a href="https://ashk.au/">Ash Kyd</a> and contributors.
+                Site design inspired by <a href="https://queerjs.com">queerjs.com</a>.
+                Suggest <a href="https://github.com/AshKyd/bne-lgbtq-tech-web">changes on Github</a>.
+            </p>
+        </footer>
+    </body>
+</html>
