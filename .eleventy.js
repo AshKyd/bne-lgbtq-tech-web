@@ -1,6 +1,6 @@
-const { EleventyRenderPlugin } = require("@11ty/eleventy");
+import { EleventyRenderPlugin } from "@11ty/eleventy";
 
-module.exports = function (eleventyConfig) {
+export default function (eleventyConfig) {
   // Plugins
   eleventyConfig.addPlugin(EleventyRenderPlugin);
   eleventyConfig.addTemplateFormats("css");
@@ -12,4 +12,4 @@ module.exports = function (eleventyConfig) {
       output: "dist",
     },
   };
-};
+}
