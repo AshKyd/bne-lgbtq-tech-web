@@ -6,7 +6,7 @@ layout: page.njk
 
 All attendees, speakers, sponsors and volunteers at our meetup are required to agree with the following code of conduct.
 
-Organizers enforce this code throughout the event. We expect cooperation from all participants to help ensure a safe environment for everybody.
+Organisers enforce this code throughout the event. We expect cooperation from all participants to help ensure a safe environment for everybody.
 
 - [Report an Issue](/report/)
 
@@ -26,11 +26,11 @@ Participants asked to stop any harassing behaviour are expected to comply immedi
 
 Sponsors are also subject to the anti-harassment policy. In particular, sponsors should not use sexualised images, activities, or other material.
 
-If a participant engages in harassing behaviour, the meetup organizers may take any action they deem appropriate, including warning the offender or expulsion from the meetup with no refund.
+If a participant engages in harassing behaviour, the meetup organisers may take any action they deem appropriate, including warning the offender or expulsion from the meetup with no refund.
 
-If you are subject to or witness unacceptable behavior, or have any other concerns, please notify an organizer as soon as possible.
+If you are subject to or witness unacceptable behavior, or have any other concerns, please notify an organiser as soon as possible.
 
-If you can't find the organizer, please [Report an Issue](/report/).
+If you can't find the organiser, please [Report an Issue](/report/).
 
 Meetup organisers are happy to help participants and assist people experiencing harassment by providing safe environment, arranging transport, accommodation or otherwise assist in the situation.
 

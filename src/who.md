@@ -7,5 +7,4 @@ This meetup has been running since 2017 and has been organised by a number of wo
 
 Currently it's organised by:
 
-- Ash Kyd ([ash@kyd.com.au](mailto:ash@kyd.com.au))
-- Tharanga Kasthuriarachchi
+{% include "partials/organisers.njk" %}

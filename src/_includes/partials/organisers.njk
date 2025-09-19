@@ -1,0 +1,14 @@
+
+<ul>
+    {% for organiser in organisers %}
+        <li>
+            {% if organiser.url %}
+                <a href="{{organiser.url}}">{{organiser.name}}</a>
+            {% else %}
+                {{organiser.name}}
+            {% endif %}{% if organiser.email %}(<a href="mailto:{{organiser.email}}">{{organiser.email}}</a>)
+            {% endif %}
+
+        </li>
+    {% endfor %}
+</ul>

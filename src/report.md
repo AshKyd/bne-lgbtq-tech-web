@@ -8,5 +8,4 @@ We want our events to be a safe and inclusive environment. That’s why we ask o
 
 In the unfortunate case that you see someone violating the code of conduct, here are some ways you can report it to us:
 
-- Let an organizer know, either in person or via socials
-- Send an email to Ash ([ash@kyd.com.au](mailto:ash@kyd.com.au))
+- Let an [organiser](/who/) know, either in person or via socials
